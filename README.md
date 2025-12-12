@@ -7,6 +7,19 @@ reasoning engine. Your Python code controls the prompt, parsing, and presentatio
 
 ---
 
+
+## 🔴 Live demo
+
+Try the public demo on Streamlit Cloud:
+
+👉 https://fallacylens-groq-wiqilee.streamlit.app
+
+> ⚠️ This demo uses a shared Groq API key.  
+> Please avoid automated or excessive requests.
+
+
+---
+
 ## ✨ Features
 
 - **Logical fallacy span detection** with severity + confidence
