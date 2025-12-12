@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fallacylens"
+version = "0.2.0"
+description = "Groq-powered logical fallacy detection toolkit."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "pydantic",
+    "groq",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fallacylens"]
