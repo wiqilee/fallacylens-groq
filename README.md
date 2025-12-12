@@ -58,8 +58,6 @@ reasoning engine. Your Python code controls the prompt, parsing, and presentatio
    uvicorn api.main:app --reload
    ```
 
-Notes:
-- The Tinker / Thinking Machines API key is **not** used in this project.
 
 ---
 
